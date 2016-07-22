@@ -8,6 +8,7 @@ import Footer from 'grommet/components/Footer';
 import Title from 'grommet/components/Title';
 import TodoAppDashboard from './components/TodoAppDashboard';
 import YSWTestLayer from './components/YSWTestLayer';
+import DateTime from 'grommet/components/DateTime';
 
 class Main extends Component {
   render () {
@@ -19,6 +20,7 @@ class Main extends Component {
         </Header>
         <TodoAppDashboard />
         <YSWTestLayer />
+        <DateTime id="item1" name="item-1" onChange={() => {}} value={"2016-08-20T04:00:00.000Z"} />
         <Footer primary={true} appCentered={true} direction="column"
           align="center" pad="small" colorIndex="grey-1">
           <p>
